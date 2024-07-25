@@ -1,13 +1,14 @@
 <script>
     import {goto} from "$app/navigation";
     import {openModal} from "../store";
+    import {base } from "$app/paths";
 </script>
 
 <header class="flex flex-col relative z-20">
     <div
         class="max-w-[1400px] mx-auto w-full flex items-center justify-between p-4 py-6"
     >
-        <a href="/">
+        <a href="{base}/">
             <h1 class="font-bold">
                 Khabaddi <span class="text-indigo-400">Tournament</span>
             </h1>
